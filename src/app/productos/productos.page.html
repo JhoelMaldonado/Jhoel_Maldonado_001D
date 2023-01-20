@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar class="ion-text-center">
+    <h3>Bienvenido</h3>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button [text]="'Perfil'"></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col><ion-button [disabled]="true"  color="danger" >anterior</ion-button></ion-col>
+      <ion-col><ion-button expand="block">siguiente</ion-button></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
